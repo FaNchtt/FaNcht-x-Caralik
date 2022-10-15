@@ -1,0 +1,173 @@
+/* font-family: 'Roboto', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  font-family: inherit;
+}
+.header {
+  background: #373a3c;
+  border-radius: 4px 4px;
+  border-bottom: 3px solid #777;
+}
+.container-header {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.header-logo {
+}
+.header-image {
+}
+.menu {
+}
+.menu-body {
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-item {
+  list-style: none;
+  margin-left: 40px;
+}
+.menu-link {
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+.menu-link:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}
+.promo {
+  background: url(../img/Star-Wars-BG.jpg) no-repeat center / cover;
+  height: calc(100vh - 60px);
+}
+.container-promo {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+.promo_title {
+  font-size: 36px;
+  line-height: 42px;
+  color: #fff;
+  margin-bottom: 134px;
+}
+.promo_title span {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+}
+.block-promo-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+.promo-button {
+  padding: 8px 19px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.promo-button:hover {
+  background: #8dd83d;
+  transition: all 0.5s ease 0s;
+}
+.best {
+  padding: 34px 0 165px 0;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+.best-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.best-title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.best-title span {
+  display: block;
+}
+.container {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.best-info {
+  display: flex;
+  justify-content: space-between;
+}
+.best-card {
+  flex: 0 0 320px;
+  background: #fff;
+}
+.best-card-img {
+  height: 180px;
+  background: url(../img/xbox-one-x.jpg);
+}
+.best-card-title {
+  font-size: 18px;
+  line-height: 21px;
+  color: #435766;
+  margin-bottom: 13px;
+  padding: 0 20px;
+}
+.best-card-text {
+  font-size: 24px;
+  line-height: 28px;
+  color: #435766;
+  margin-bottom: 38px;
+  padding: 0 20px;
+}
+.best-button {
+  display: block;
+  width: 90px;
+  padding: 8px 19px;
+  margin: 0 auto;
+  margin-bottom: 38px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+}
+.best-button:hover {
+  background: #8dd83d;
+  transition: all 0.5s ease 0s;
+}
+.best-card-foto {
+  height: 180px;
+  background: url(../img/mixer-logo.jpg) no-repeat center;
+}
+.best-card-fotka {
+  height: 180px;
+  background: url(../img/1c93fdc8-0f06-4f34-a54c-7ac2a45c58aegold.png) no-repeat
+    center;
+}
