@@ -52,8 +52,8 @@ a {
   text-shadow: 0 0 5px #fff;
 }
 .promo {
-  background: url(../img/Star-Wars-BG.jpg) no-repeat center / cover;
-  height: calc(100vh - 60px);
+  background: url(../img/fdfgv.jpg) no-repeat center / cover;
+  height: calc(110vh - 40px);
 }
 .container-promo {
   max-width: 1105px;
@@ -61,14 +61,14 @@ a {
   padding: 0 15px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   height: 100%;
 }
 .promo_title {
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 56px;
+  line-height: 52px;
   color: #fff;
-  margin-bottom: 134px;
+  margin-bottom: 34px;
 }
 .promo_title span {
   display: block;
@@ -77,12 +77,21 @@ a {
 }
 .block-promo-buttons {
   display: flex;
-  align-items: center;
-  column-gap: 13px;
+  align-items: left;
+  column-gap: 20px;
+}
+.promo-button1 {
+  padding: 8px 19px;
+  background: linear-gradient(180deg, #170966 0%, #cc0000 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
 }
 .promo-button {
   padding: 8px 19px;
-  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  background: linear-gradient(180deg, #a20000 0%, #373a3c 100%);
   border-radius: 4px;
   font-size: 16px;
   line-height: 21px;
@@ -90,12 +99,16 @@ a {
   text-decoration: none;
 }
 .promo-button:hover {
+  background: #0f0064;
+  transition: all 0.5s ease 0s;
+}
+.promo-button1:hover {
   background: #8dd83d;
   transition: all 0.5s ease 0s;
 }
 .best {
   padding: 34px 0 165px 0;
-  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  background: linear-gradient(180deg, #686c6f 0%, #1070b1 100%);
 }
 .best-logo {
   display: block;
@@ -127,7 +140,8 @@ a {
 }
 .best-card-img {
   height: 180px;
-  background: url(../img/xbox-one-x.jpg);
+  background: url(../img/photo_2022-10-19_18-12-03_photo-resizer.ru.jpg)
+    no-repeat;
 }
 .best-card-title {
   font-size: 18px;
@@ -145,15 +159,15 @@ a {
 }
 .best-button {
   display: block;
-  width: 90px;
+  width: 200px;
   padding: 8px 19px;
   margin: 0 auto;
   margin-bottom: 38px;
-  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  background: linear-gradient(180deg, #22ff00 0%, #0099ff 100%);
   border-radius: 4px;
   font-size: 16px;
   line-height: 21px;
-  color: #ffffff;
+  color: #7d275a;
   text-decoration: none;
   text-align: center;
   transition: all 0.5s ease 0s;
@@ -163,13 +177,12 @@ a {
   transition: all 0.5s ease 0s;
 }
 .best-card-foto {
-  height: 180px;
-  background: url(../img/mixer-logo.jpg) no-repeat center;
+  height: 240px;
+  background: url(../img/photo_2022-10-19_18-12-26.jpg) no-repeat center;
 }
 .best-card-fotka {
-  height: 180px;
-  background: url(../img/1c93fdc8-0f06-4f34-a54c-7ac2a45c58aegold.png) no-repeat
-    center;
+  height: 280px;
+  background: url(../img/photo_2022-10-19_18-12-32.jpg) no-repeat center;
 }
 .menu-icon {
   flex: 0 0 30px;
@@ -242,4 +255,8 @@ a {
   .menu-list {
     display: block;
   }
+}
+.pom {
+  font-size: 10px;
+  color: #22ff00;
 }
